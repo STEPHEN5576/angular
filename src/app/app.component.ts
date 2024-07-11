@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'blog';
+  data= "my data"
+   getVal (){
+    return "This is my blog"
+  }
 }
